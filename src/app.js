@@ -28,17 +28,6 @@ const renderApp = () => {
   }
 }
 
-// const First = () => (
-//   <Second po={9}/>
-// )
-
-// const Second = ({po}) => (
-//   <div>secondtonone {po}</div>
-// )
-// ReactDOM.render(<First />, document.getElementById('app'));
-
-
-
 ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {
